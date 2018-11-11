@@ -11,7 +11,11 @@ public class FileGenEx {
 		  try{    
 	           FileWriter fw=new FileWriter("E:/TempJenkins/File1.txt");    
 	           
+<<<<<<< HEAD
+	           fw.write("File modified at 4:32");
+=======
 	           fw.write("File modified at 4:58");
+>>>>>>> refs/remotes/origin/master-2
 	           fw.write("\n");
 	           fw.write("Welcome to Jenkins-Java Test example");
 	           fw.write("\n");
