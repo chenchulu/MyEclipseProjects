@@ -11,7 +11,8 @@ public class FileGenEx {
 		  try{    
 	           FileWriter fw=new FileWriter("E:/TempJenkins/File1.txt");    
 	           
-	           fw.write("File modified at 1:13");
+	           fw.write("File modified at 4:38");
+	           fw.write("\n");
 	           fw.write("Welcome to Jenkins-Java Test example");
 	           fw.write("\n");
 	           fw.write("Current time :"+new Date());
